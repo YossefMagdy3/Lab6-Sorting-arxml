@@ -13,3 +13,11 @@ exception “NotVaildAutosarFileException”.
 - The output file shall be named as the same of the input file concatenated with “_mod.arxml”
   e.g. if the input was named “Rte_Ecuc.arxml” then the output should be “Rte_Ecuc_mod.arxml”.
 - Assume any missing requirement
+
+##Files
+- **ArxmlSort.java** : The java code file containing the main class, user-defined exceptions classes and other methods.
+- **Normal.arxml** : arxml file unsorted to test the functionality of the code.
+- **Normal_mod.arxml** : arxml file after sorting .
+- **Empty.arxml** :  empty arxml file to test the functionality of the code.
+- **EZ.txt** : A file with extension not "arxml" to test the functionality of the code .
+- **test cases.bat** : batch file to test all the cases "files".
