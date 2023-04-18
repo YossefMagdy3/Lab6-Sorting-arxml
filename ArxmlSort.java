@@ -113,7 +113,7 @@ public class ArxmlSort {
 
 }
 
-class EmptyAutosarFileException extends Exception {
+class EmptyAutosarFileException extends RuntimeException {
 
     public EmptyAutosarFileException(String message) {
         super(message);
